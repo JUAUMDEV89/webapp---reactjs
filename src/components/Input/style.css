@@ -1,0 +1,23 @@
+.input{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    height: 38px;
+    padding-left: 5px;
+    padding-top: 3px;
+    width:200px;
+}
+
+input{
+    border: none;
+    width: 170px;
+    padding-left: 5px;
+}
+
+
+input:focus{
+    border: none;
+}
