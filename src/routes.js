@@ -1,10 +1,12 @@
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Redirect } from 'react-router-dom';
 
 import Login from './pages/Login';
 import Home from './pages/Home';
 import Register from './pages/Register';
 import NotFound from './pages/NotFound';
 import Forgot from './pages/Forgot';
+
+import PrivateRouter from './components/PrivateRouter';
 
 function Routes(){
     return(
