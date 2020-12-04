@@ -21,9 +21,20 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 0px;
+    top: 18px;
     left: 25%;
     transition: all ease 0.3;
     display: none;
+}
 
+@keyframes taskAnimation{
+   0%{
+      opacity: 0;
+   }
+   50%{
+      opacity: 1;    
+   }
+   100%{
+      opacity: 1;     
+   }
 }

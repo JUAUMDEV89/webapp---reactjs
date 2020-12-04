@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import { Link } from 'react-router-dom';
+
 import { FiPlus } from "react-icons/fi";
 
 import './style.css'
@@ -19,13 +21,16 @@ function Home(){
         "name":"Tomar Banho",
         "hour":"22:10",
        },
+       
     ]);
 
     return(
         <div className="page">
         <div className="home--page">
             <div className="home--header">
-               <FiPlus fontSize="28"/>
+                <Link to="/addtask">
+                    <FiPlus fontSize="28" />
+                </Link>
                <h4>Olá João - Suas Tarefas</h4>
             </div>  
              
