@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Register from './pages/Register';
 import NotFound from './pages/NotFound';
 import Forgot from './pages/Forgot';
+import AddTask from './pages/AddTask';
 
 import PrivateRouter from './components/PrivateRouter';
 
@@ -16,6 +17,7 @@ function Routes(){
              <Route path="/login" component={Login} exact />
              <Route path="/register" component={Register} exact />
              <Route path="/forgot" component={Forgot} exact />
+             <Route path="/addtask" component={AddTask} exact />
              <Route path="/notfound" component={NotFound} exact />
           </BrowserRouter>
         </>
